@@ -1,0 +1,17 @@
+.venv/
+data/
+results/
+wandb/
+logs/
+paper/
+docs/
+build/
+dist/
+__pycache__/
+*.pyc
+*.egg-info/
+.ruff_cache/
+.pytest_cache/
+.claude/
+.coverage
+htmlcov/

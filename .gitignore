@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Environments / caches
+.venv/
+.env
+.torch/
+
+# Data and run outputs (not distributed)
+data/
+logs/
+wandb/
+eval_results/
+
+# Generated analysis outputs (the input JSONs under results/ ARE tracked)
+results/figures/
+results/tables/
+
+# Editors / build
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+build/
+dist/

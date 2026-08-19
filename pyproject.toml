@@ -1,0 +1,73 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "monroe"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "torch-geometric",
+    "rdkit",
+    "numpy",
+    "pandas",
+    "datamol",
+    "scipy",
+    "scikit-learn",
+    "tqdm",
+    "wandb",
+    "matplotlib",
+    "pyarrow",
+]
+
+[project.optional-dependencies]
+preprocessing = [
+    "duckdb",
+    "datasets",       # HuggingFace datasets
+]
+eval = [
+    "polaris-lib",
+    "tabpfn==8.3.0",
+    "MoleculeACE",
+    "transformers",     # transitive dep of MoleculeACE
+    "tensorflow",       # transitive dep of MoleculeACE
+    "joblib",
+    "lightgbm",         # GBM baseline
+]
+test = [
+    "pytest",
+]
+dev = [
+    "ruff",
+]
+
+# MoleculeACE transitively depends on rdkit-pypi, which has no Python 3.12 wheels.
+# We already install rdkit (the modern package) which provides the same modules.
+[tool.uv]
+override-dependencies = [
+    "rdkit-pypi ; python_version < '3.12'",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["monroe*"]
+
+[tool.setuptools.package-data]
+"monroe.model" = ["*.csv"]
+"monroe.assets" = ["*.json", "*.csv"]
+
+[tool.pytest.ini_options]
+markers = ["slow: marks tests as slow (deselect with '-m \"not slow\"')"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["E731", "F722", "F821"]  # F722/F821: TensorType shape annotations
+
+[tool.ruff.format]
+quote-style = "preserve"   # avoid churning quotes
+indent-style = "space"

@@ -1,0 +1,163 @@
+{
+    "polaris/adme-fang-solu-1": {
+        "1B_MPNN_MolGPS-ens_LargeMix": {"mean": 0.770, "std": null},
+        "1B_MPNN_LargeMix-Phenomics": {"mean": 0.764, "std": null},
+        "CheMeleonMOE": {"mean": 0.729, "std": null},
+        "CheMeleon": {"mean": 0.682, "std": null},
+        "ML4DD-team16": {"mean": 0.654, "std": null},
+        "ML4DD-team9": {"mean": 0.651, "std": null},
+        "ML4DD-team25": {"mean": 0.632, "std": null}
+    },
+    "polaris/adme-fang-rppb-1": {
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.908, "std": null},
+        "1B_MPNN_MolGPS-ens_LargeMix": {"mean": 0.886, "std": null},
+        "chemma-2b-sft": {"mean": 0.747, "std": null},
+        "adme-fang-RPPB-1-GIRAFFE-wae": {"mean": 0.680, "std": null},
+        "CheMeleon": {"mean": 0.662, "std": null},
+        "chemlactica-1b-sft": {"mean": 0.614, "std": null}
+    },
+    "polaris/adme-fang-hppb-1": {
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.888, "std": null},
+        "1B_MPNN_MolGPS-ens_LargeMix": {"mean": 0.884, "std": null},
+        "adme-fang-HPPB-1-GIRAFFE-wae": {"mean": 0.815, "std": null},
+        "CheMeleon": {"mean": 0.793, "std": null},
+        "chemlactica-125m-sft": {"mean": 0.774, "std": null},
+        "chemma-2b-sft": {"mean": 0.636, "std": null},
+        "chemlactica-1b-sft": {"mean": 0.635, "std": null}
+    },
+    "polaris/adme-fang-perm-1": {
+        "1B_MPNN_MolGPS-ens_LargeMix": {"mean": 0.879, "std": null},
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.860, "std": null},
+        "CheMeleon": {"mean": 0.822, "std": null},
+        "adme-fang-PERM-1-GIRAFFE-wae_s": {"mean": 0.772, "std": null},
+        "chemlactica-1b-sft": {"mean": 0.762, "std": null},
+        "chemlactica-125m-sft": {"mean": 0.714, "std": null}
+    },
+    "polaris/adme-fang-rclint-1": {
+        "1B_MPNN_MolGPS-ens_LargeMix": {"mean": 0.798, "std": null},
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.784, "std": null},
+        "CheMeleon": {"mean": 0.757, "std": null},
+        "chemlactica-125m-sft": {"mean": 0.714, "std": null},
+        "chemlactica-1b-sft": {"mean": 0.698, "std": null},
+        "chemma-2b-sft": {"mean": 0.660, "std": null}
+    },
+    "polaris/adme-fang-hclint-1": {
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.778, "std": null},
+        "chemlactica-1b-sft": {"mean": 0.720, "std": null},
+        "CheMeleon": {"mean": 0.720, "std": null},
+        "chemlactica-125m-sft": {"mean": 0.717, "std": null},
+        "chemma-2b-sft": {"mean": 0.674, "std": null}
+    },
+    "tdcommons/hia-hou": {},
+    "tdcommons/lipophilicity-astrazeneca": {
+        "1B_MPNN_MolGPS-ens_LargeMix-and-Phenomics": {"mean": 0.392, "std": null},
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.411, "std": null},
+        "3B_e50_MPNN_LargeMix-and-Phenomics": {"mean": 0.424, "std": null},
+        "CheMeleon": {"mean": 0.443, "std": null}
+    },
+    "tdcommons/ppbr-az": {
+        "3B_e50_MPNN_LargeMix-and-Phenomics": {"mean": 7.004, "std": null},
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 7.026, "std": null},
+        "CheMeleon": {"mean": 7.532, "std": null}
+    },
+    "tdcommons/clearance-hepatocyte-az": {
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.538, "std": null},
+        "3B_e50_MPNN_LargeMix-and-Phenomics": {"mean": 0.525, "std": null},
+        "clearance-hepatocyte-az-GIRAFFE-wae": {"mean": 0.429, "std": null},
+        "CheMeleon": {"mean": 0.387, "std": null}
+    },
+    "tdcommons/cyp2d6-substrate-carbonmangels": {
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.711, "std": null},
+        "CheMeleon": {"mean": 0.688, "std": null},
+        "3B_e50_MPNN_LargeMix-and-Phenomics": {"mean": 0.680, "std": null},
+        "MHNfs": {"mean": 0.528, "std": null}
+    },
+    "tdcommons/half-life-obach": {
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.625, "std": null},
+        "3B_e50_MPNN_LargeMix-and-Phenomics": {"mean": 0.573, "std": null},
+        "CheMeleon": {"mean": 0.360, "std": null}
+    },
+    "tdcommons/cyp2c9-substrate-carbonmangels": {
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.478, "std": null},
+        "CheMeleon": {"mean": 0.470, "std": null},
+        "3B_e50_MPNN_LargeMix-and-Phenomics": {"mean": 0.407, "std": null},
+        "MHNfs": {"mean": 0.276, "std": null}
+    },
+    "tdcommons/clearance-microsome-az": {
+        "3B_e50_MPNN_LargeMix-and-Phenomics": {"mean": 0.683, "std": null},
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.653, "std": null},
+        "CheMeleon": {"mean": 0.590, "std": null}
+    },
+    "tdcommons/dili": {
+        "3B_e50_MPNN_LargeMix-and-Phenomics": {"mean": 0.933, "std": null},
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.925, "std": null},
+        "CheMeleon": {"mean": 0.916, "std": null}
+    },
+    "tdcommons/bioavailability-ma": {
+        "3B_e50_MPNN_LargeMix-and-Phenomics": {"mean": 0.714, "std": null},
+        "CheMeleon": {"mean": 0.698, "std": null},
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.675, "std": null},
+        "MHNfs": {"mean": 0.610, "std": null}
+    },
+    "tdcommons/vdss-lombardo": {
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.637, "std": null},
+        "3B_e50_MPNN_LargeMix-and-Phenomics": {"mean": 0.600, "std": null},
+        "CheMeleon": {"mean": 0.590, "std": null}
+    },
+    "tdcommons/cyp3a4-substrate-carbonmangels": {
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.696, "std": null},
+        "3B_e50_MPNN_LargeMix-and-Phenomics": {"mean": 0.685, "std": null},
+        "CheMeleon": {"mean": 0.606, "std": null}
+    },
+    "tdcommons/pgp-broccatelli": {
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.954, "std": null},
+        "3B_e50_MPNN_LargeMix-and-Phenomics": {"mean": 0.942, "std": null},
+        "CheMeleon": {"mean": 0.911, "std": null},
+        "MHNfs": {"mean": 0.834, "std": null}
+    },
+    "tdcommons/caco2-wang": {
+        "1B_MPNN_MolGPS-ens_LargeMix-and-Phenomics": {"mean": 0.282, "std": null},
+        "3B_e50_MPNN_LargeMix-and-Phenomics": {"mean": 0.316, "std": null},
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.319, "std": null},
+        "CheMeleon": {"mean": 0.399, "std": null}
+    },
+    "tdcommons/herg": {
+        "3B_e50_MPNN_LargeMix-and-Phenomics": {"mean": 0.891, "std": null},
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.855, "std": null},
+        "CheMeleon": {"mean": 0.822, "std": null},
+        "1B_MPNN_LargeMix": {"mean": 0.816, "std": null},
+        "MHNfs": {"mean": 0.671, "std": null}
+    },
+    "tdcommons/bbb-martins": {
+        "3B_e50_MPNN_LargeMix-and-Phenomics": {"mean": 0.933, "std": null},
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.928, "std": null},
+        "CheMeleon": {"mean": 0.890, "std": null},
+        "MHNfs": {"mean": 0.616, "std": null}
+    },
+    "tdcommons/ames": {
+        "3B_e50_MPNN_LargeMix-and-Phenomics": {"mean": 0.868, "std": null},
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.866, "std": null},
+        "CheMeleon": {"mean": 0.854, "std": null}
+    },
+    "tdcommons/ld50-zhu": {
+        "CheMeleon": {"mean": 0.526, "std": null},
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.614, "std": null},
+        "3B_e50_MPNN_LargeMix-and-Phenomics": {"mean": 0.625, "std": null}
+    },
+    "tdcommons/cyp2c9-veith": {
+        "3B_e50_MPNN_LargeMix-and-Phenomics": {"mean": 0.895, "std": null},
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.833, "std": null}
+    },
+    "tdcommons/cyp2d6-veith": {
+        "3B_e50_MPNN_LargeMix-and-Phenomics": {"mean": 0.801, "std": null},
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.737, "std": null}
+    },
+    "tdcommons/cyp3a4-veith": {
+        "3B_e50_MPNN_LargeMix-and-Phenomics": {"mean": 0.919, "std": null},
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.895, "std": null}
+    },
+    "tdcommons/solubility-aqsoldb": {
+        "1B_MPNN_LargeMix-and-Phenomics": {"mean": 0.726, "std": null},
+        "3B_e50_MPNN_LargeMix-and-Phenomics": {"mean": 0.743, "std": null}
+    }
+}

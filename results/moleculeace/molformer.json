@@ -1,0 +1,762 @@
+{
+    "42": {
+        "CHEMBL1862_Ki": {
+            "overall_test_rmse": 0.78232,
+            "noncliff_test_rmse": 0.751623,
+            "cliff_test_rmse": 0.823461
+        },
+        "CHEMBL1871_Ki": {
+            "overall_test_rmse": 0.740281,
+            "noncliff_test_rmse": 0.652763,
+            "cliff_test_rmse": 0.967792
+        },
+        "CHEMBL2034_Ki": {
+            "overall_test_rmse": 0.796757,
+            "noncliff_test_rmse": 0.681321,
+            "cliff_test_rmse": 0.981296
+        },
+        "CHEMBL2047_EC50": {
+            "overall_test_rmse": 0.750678,
+            "noncliff_test_rmse": 0.68025,
+            "cliff_test_rmse": 0.848959
+        },
+        "CHEMBL204_Ki": {
+            "overall_test_rmse": 0.815167,
+            "noncliff_test_rmse": 0.72097,
+            "cliff_test_rmse": 0.939957
+        },
+        "CHEMBL2147_Ki": {
+            "overall_test_rmse": 0.687641,
+            "noncliff_test_rmse": 0.599617,
+            "cliff_test_rmse": 0.80419
+        },
+        "CHEMBL214_Ki": {
+            "overall_test_rmse": 0.737156,
+            "noncliff_test_rmse": 0.661437,
+            "cliff_test_rmse": 0.85169
+        },
+        "CHEMBL218_EC50": {
+            "overall_test_rmse": 0.821195,
+            "noncliff_test_rmse": 0.804492,
+            "cliff_test_rmse": 0.849426
+        },
+        "CHEMBL219_Ki": {
+            "overall_test_rmse": 0.781392,
+            "noncliff_test_rmse": 0.724091,
+            "cliff_test_rmse": 0.86157
+        },
+        "CHEMBL228_Ki": {
+            "overall_test_rmse": 0.788958,
+            "noncliff_test_rmse": 0.75334,
+            "cliff_test_rmse": 0.845845
+        },
+        "CHEMBL231_Ki": {
+            "overall_test_rmse": 0.775219,
+            "noncliff_test_rmse": 0.730223,
+            "cliff_test_rmse": 0.90069
+        },
+        "CHEMBL233_Ki": {
+            "overall_test_rmse": 0.84139,
+            "noncliff_test_rmse": 0.796654,
+            "cliff_test_rmse": 0.901613
+        },
+        "CHEMBL234_Ki": {
+            "overall_test_rmse": 0.719572,
+            "noncliff_test_rmse": 0.725307,
+            "cliff_test_rmse": 0.712102
+        },
+        "CHEMBL235_EC50": {
+            "overall_test_rmse": 0.707615,
+            "noncliff_test_rmse": 0.630421,
+            "cliff_test_rmse": 0.81934
+        },
+        "CHEMBL236_Ki": {
+            "overall_test_rmse": 0.836534,
+            "noncliff_test_rmse": 0.780889,
+            "cliff_test_rmse": 0.916321
+        },
+        "CHEMBL237_EC50": {
+            "overall_test_rmse": 0.816053,
+            "noncliff_test_rmse": 0.751046,
+            "cliff_test_rmse": 0.883249
+        },
+        "CHEMBL237_Ki": {
+            "overall_test_rmse": 0.768549,
+            "noncliff_test_rmse": 0.737212,
+            "cliff_test_rmse": 0.808662
+        },
+        "CHEMBL238_Ki": {
+            "overall_test_rmse": 0.696677,
+            "noncliff_test_rmse": 0.689584,
+            "cliff_test_rmse": 0.716663
+        },
+        "CHEMBL239_EC50": {
+            "overall_test_rmse": 0.757721,
+            "noncliff_test_rmse": 0.661003,
+            "cliff_test_rmse": 0.88012
+        },
+        "CHEMBL244_Ki": {
+            "overall_test_rmse": 0.828462,
+            "noncliff_test_rmse": 0.754545,
+            "cliff_test_rmse": 0.902675
+        },
+        "CHEMBL262_Ki": {
+            "overall_test_rmse": 0.815998,
+            "noncliff_test_rmse": 0.752892,
+            "cliff_test_rmse": 1.04981
+        },
+        "CHEMBL264_Ki": {
+            "overall_test_rmse": 0.650202,
+            "noncliff_test_rmse": 0.607089,
+            "cliff_test_rmse": 0.706216
+        },
+        "CHEMBL2835_Ki": {
+            "overall_test_rmse": 0.467503,
+            "noncliff_test_rmse": 0.377513,
+            "cliff_test_rmse": 0.93784
+        },
+        "CHEMBL287_Ki": {
+            "overall_test_rmse": 0.728497,
+            "noncliff_test_rmse": 0.709036,
+            "cliff_test_rmse": 0.758453
+        },
+        "CHEMBL2971_Ki": {
+            "overall_test_rmse": 0.719626,
+            "noncliff_test_rmse": 0.678081,
+            "cliff_test_rmse": 0.892326
+        },
+        "CHEMBL3979_EC50": {
+            "overall_test_rmse": 0.719228,
+            "noncliff_test_rmse": 0.635179,
+            "cliff_test_rmse": 0.822887
+        },
+        "CHEMBL4005_Ki": {
+            "overall_test_rmse": 0.696288,
+            "noncliff_test_rmse": 0.606362,
+            "cliff_test_rmse": 0.804234
+        },
+        "CHEMBL4203_Ki": {
+            "overall_test_rmse": 0.923049,
+            "noncliff_test_rmse": 0.880292,
+            "cliff_test_rmse": 1.28789
+        },
+        "CHEMBL4616_EC50": {
+            "overall_test_rmse": 0.764205,
+            "noncliff_test_rmse": 0.660976,
+            "cliff_test_rmse": 0.84677
+        },
+        "CHEMBL4792_Ki": {
+            "overall_test_rmse": 0.705719,
+            "noncliff_test_rmse": 0.686114,
+            "cliff_test_rmse": 0.722084
+        }
+    },
+    "117": {
+        "CHEMBL1862_Ki": {
+            "overall_test_rmse": 0.849532,
+            "noncliff_test_rmse": 0.868812,
+            "cliff_test_rmse": 0.82172
+        },
+        "CHEMBL1871_Ki": {
+            "overall_test_rmse": 0.749488,
+            "noncliff_test_rmse": 0.698231,
+            "cliff_test_rmse": 0.893456
+        },
+        "CHEMBL2034_Ki": {
+            "overall_test_rmse": 0.769254,
+            "noncliff_test_rmse": 0.636075,
+            "cliff_test_rmse": 0.975537
+        },
+        "CHEMBL2047_EC50": {
+            "overall_test_rmse": 0.648541,
+            "noncliff_test_rmse": 0.620995,
+            "cliff_test_rmse": 0.68932
+        },
+        "CHEMBL204_Ki": {
+            "overall_test_rmse": 0.805843,
+            "noncliff_test_rmse": 0.707157,
+            "cliff_test_rmse": 0.935621
+        },
+        "CHEMBL2147_Ki": {
+            "overall_test_rmse": 0.658089,
+            "noncliff_test_rmse": 0.594322,
+            "cliff_test_rmse": 0.745405
+        },
+        "CHEMBL214_Ki": {
+            "overall_test_rmse": 0.713617,
+            "noncliff_test_rmse": 0.629778,
+            "cliff_test_rmse": 0.838323
+        },
+        "CHEMBL218_EC50": {
+            "overall_test_rmse": 0.819082,
+            "noncliff_test_rmse": 0.805144,
+            "cliff_test_rmse": 0.842741
+        },
+        "CHEMBL219_Ki": {
+            "overall_test_rmse": 0.786273,
+            "noncliff_test_rmse": 0.719572,
+            "cliff_test_rmse": 0.878409
+        },
+        "CHEMBL228_Ki": {
+            "overall_test_rmse": 0.796647,
+            "noncliff_test_rmse": 0.767187,
+            "cliff_test_rmse": 0.844181
+        },
+        "CHEMBL231_Ki": {
+            "overall_test_rmse": 0.799779,
+            "noncliff_test_rmse": 0.768651,
+            "cliff_test_rmse": 0.889494
+        },
+        "CHEMBL233_Ki": {
+            "overall_test_rmse": 0.824934,
+            "noncliff_test_rmse": 0.741827,
+            "cliff_test_rmse": 0.931145
+        },
+        "CHEMBL234_Ki": {
+            "overall_test_rmse": 0.719555,
+            "noncliff_test_rmse": 0.725392,
+            "cliff_test_rmse": 0.711951
+        },
+        "CHEMBL235_EC50": {
+            "overall_test_rmse": 0.717217,
+            "noncliff_test_rmse": 0.634692,
+            "cliff_test_rmse": 0.835867
+        },
+        "CHEMBL236_Ki": {
+            "overall_test_rmse": 0.822752,
+            "noncliff_test_rmse": 0.771908,
+            "cliff_test_rmse": 0.896054
+        },
+        "CHEMBL237_EC50": {
+            "overall_test_rmse": 0.81414,
+            "noncliff_test_rmse": 0.762133,
+            "cliff_test_rmse": 0.86874
+        },
+        "CHEMBL237_Ki": {
+            "overall_test_rmse": 0.756545,
+            "noncliff_test_rmse": 0.697522,
+            "cliff_test_rmse": 0.829115
+        },
+        "CHEMBL238_Ki": {
+            "overall_test_rmse": 0.721087,
+            "noncliff_test_rmse": 0.704561,
+            "cliff_test_rmse": 0.766583
+        },
+        "CHEMBL239_EC50": {
+            "overall_test_rmse": 0.741793,
+            "noncliff_test_rmse": 0.652311,
+            "cliff_test_rmse": 0.855868
+        },
+        "CHEMBL244_Ki": {
+            "overall_test_rmse": 0.80414,
+            "noncliff_test_rmse": 0.736792,
+            "cliff_test_rmse": 0.872117
+        },
+        "CHEMBL262_Ki": {
+            "overall_test_rmse": 0.866215,
+            "noncliff_test_rmse": 0.854098,
+            "cliff_test_rmse": 0.9177
+        },
+        "CHEMBL264_Ki": {
+            "overall_test_rmse": 0.647305,
+            "noncliff_test_rmse": 0.602535,
+            "cliff_test_rmse": 0.70529
+        },
+        "CHEMBL2835_Ki": {
+            "overall_test_rmse": 0.452361,
+            "noncliff_test_rmse": 0.375637,
+            "cliff_test_rmse": 0.869959
+        },
+        "CHEMBL287_Ki": {
+            "overall_test_rmse": 0.751766,
+            "noncliff_test_rmse": 0.735282,
+            "cliff_test_rmse": 0.777291
+        },
+        "CHEMBL2971_Ki": {
+            "overall_test_rmse": 0.70898,
+            "noncliff_test_rmse": 0.66513,
+            "cliff_test_rmse": 0.889675
+        },
+        "CHEMBL3979_EC50": {
+            "overall_test_rmse": 0.686459,
+            "noncliff_test_rmse": 0.610376,
+            "cliff_test_rmse": 0.780883
+        },
+        "CHEMBL4005_Ki": {
+            "overall_test_rmse": 0.680787,
+            "noncliff_test_rmse": 0.595123,
+            "cliff_test_rmse": 0.783965
+        },
+        "CHEMBL4203_Ki": {
+            "overall_test_rmse": 0.954524,
+            "noncliff_test_rmse": 0.923816,
+            "cliff_test_rmse": 1.23067
+        },
+        "CHEMBL4616_EC50": {
+            "overall_test_rmse": 0.728213,
+            "noncliff_test_rmse": 0.619322,
+            "cliff_test_rmse": 0.814223
+        },
+        "CHEMBL4792_Ki": {
+            "overall_test_rmse": 0.712609,
+            "noncliff_test_rmse": 0.678903,
+            "cliff_test_rmse": 0.740252
+        }
+    },
+    "709": {
+        "CHEMBL1862_Ki": {
+            "overall_test_rmse": 0.823522,
+            "noncliff_test_rmse": 0.806912,
+            "cliff_test_rmse": 0.846277
+        },
+        "CHEMBL1871_Ki": {
+            "overall_test_rmse": 0.715568,
+            "noncliff_test_rmse": 0.675702,
+            "cliff_test_rmse": 0.829956
+        },
+        "CHEMBL2034_Ki": {
+            "overall_test_rmse": 0.740801,
+            "noncliff_test_rmse": 0.633347,
+            "cliff_test_rmse": 0.912547
+        },
+        "CHEMBL2047_EC50": {
+            "overall_test_rmse": 0.662443,
+            "noncliff_test_rmse": 0.634395,
+            "cliff_test_rmse": 0.70397
+        },
+        "CHEMBL204_Ki": {
+            "overall_test_rmse": 0.830977,
+            "noncliff_test_rmse": 0.724561,
+            "cliff_test_rmse": 0.970094
+        },
+        "CHEMBL2147_Ki": {
+            "overall_test_rmse": 0.668005,
+            "noncliff_test_rmse": 0.591255,
+            "cliff_test_rmse": 0.771063
+        },
+        "CHEMBL214_Ki": {
+            "overall_test_rmse": 0.710954,
+            "noncliff_test_rmse": 0.640983,
+            "cliff_test_rmse": 0.817317
+        },
+        "CHEMBL218_EC50": {
+            "overall_test_rmse": 0.803815,
+            "noncliff_test_rmse": 0.784918,
+            "cliff_test_rmse": 0.835623
+        },
+        "CHEMBL219_Ki": {
+            "overall_test_rmse": 0.785192,
+            "noncliff_test_rmse": 0.732193,
+            "cliff_test_rmse": 0.859842
+        },
+        "CHEMBL228_Ki": {
+            "overall_test_rmse": 0.766376,
+            "noncliff_test_rmse": 0.713396,
+            "cliff_test_rmse": 0.84856
+        },
+        "CHEMBL231_Ki": {
+            "overall_test_rmse": 0.790361,
+            "noncliff_test_rmse": 0.741406,
+            "cliff_test_rmse": 0.925984
+        },
+        "CHEMBL233_Ki": {
+            "overall_test_rmse": 0.830879,
+            "noncliff_test_rmse": 0.773955,
+            "cliff_test_rmse": 0.906211
+        },
+        "CHEMBL234_Ki": {
+            "overall_test_rmse": 0.736902,
+            "noncliff_test_rmse": 0.738319,
+            "cliff_test_rmse": 0.735069
+        },
+        "CHEMBL235_EC50": {
+            "overall_test_rmse": 0.680868,
+            "noncliff_test_rmse": 0.599053,
+            "cliff_test_rmse": 0.797835
+        },
+        "CHEMBL236_Ki": {
+            "overall_test_rmse": 0.839607,
+            "noncliff_test_rmse": 0.780584,
+            "cliff_test_rmse": 0.923873
+        },
+        "CHEMBL237_EC50": {
+            "overall_test_rmse": 0.794267,
+            "noncliff_test_rmse": 0.740238,
+            "cliff_test_rmse": 0.850759
+        },
+        "CHEMBL237_Ki": {
+            "overall_test_rmse": 0.78575,
+            "noncliff_test_rmse": 0.741956,
+            "cliff_test_rmse": 0.840898
+        },
+        "CHEMBL238_Ki": {
+            "overall_test_rmse": 0.692696,
+            "noncliff_test_rmse": 0.675057,
+            "cliff_test_rmse": 0.741034
+        },
+        "CHEMBL239_EC50": {
+            "overall_test_rmse": 0.767814,
+            "noncliff_test_rmse": 0.669835,
+            "cliff_test_rmse": 0.891815
+        },
+        "CHEMBL244_Ki": {
+            "overall_test_rmse": 0.839465,
+            "noncliff_test_rmse": 0.750973,
+            "cliff_test_rmse": 0.926947
+        },
+        "CHEMBL262_Ki": {
+            "overall_test_rmse": 0.753495,
+            "noncliff_test_rmse": 0.719975,
+            "cliff_test_rmse": 0.886219
+        },
+        "CHEMBL264_Ki": {
+            "overall_test_rmse": 0.654556,
+            "noncliff_test_rmse": 0.625016,
+            "cliff_test_rmse": 0.693848
+        },
+        "CHEMBL2835_Ki": {
+            "overall_test_rmse": 0.458067,
+            "noncliff_test_rmse": 0.385269,
+            "cliff_test_rmse": 0.862248
+        },
+        "CHEMBL287_Ki": {
+            "overall_test_rmse": 0.714215,
+            "noncliff_test_rmse": 0.698527,
+            "cliff_test_rmse": 0.738507
+        },
+        "CHEMBL2971_Ki": {
+            "overall_test_rmse": 0.67134,
+            "noncliff_test_rmse": 0.629593,
+            "cliff_test_rmse": 0.843248
+        },
+        "CHEMBL3979_EC50": {
+            "overall_test_rmse": 0.703295,
+            "noncliff_test_rmse": 0.578328,
+            "cliff_test_rmse": 0.848251
+        },
+        "CHEMBL4005_Ki": {
+            "overall_test_rmse": 0.69017,
+            "noncliff_test_rmse": 0.611756,
+            "cliff_test_rmse": 0.78581
+        },
+        "CHEMBL4203_Ki": {
+            "overall_test_rmse": 0.935019,
+            "noncliff_test_rmse": 0.89536,
+            "cliff_test_rmse": 1.27815
+        },
+        "CHEMBL4616_EC50": {
+            "overall_test_rmse": 0.735385,
+            "noncliff_test_rmse": 0.669249,
+            "cliff_test_rmse": 0.79043
+        },
+        "CHEMBL4792_Ki": {
+            "overall_test_rmse": 0.707874,
+            "noncliff_test_rmse": 0.670179,
+            "cliff_test_rmse": 0.738623
+        }
+    },
+    "1701": {
+        "CHEMBL1862_Ki": {
+            "overall_test_rmse": 0.79092,
+            "noncliff_test_rmse": 0.76741,
+            "cliff_test_rmse": 0.822772
+        },
+        "CHEMBL1871_Ki": {
+            "overall_test_rmse": 0.713351,
+            "noncliff_test_rmse": 0.637194,
+            "cliff_test_rmse": 0.914721
+        },
+        "CHEMBL2034_Ki": {
+            "overall_test_rmse": 0.765392,
+            "noncliff_test_rmse": 0.623536,
+            "cliff_test_rmse": 0.982203
+        },
+        "CHEMBL2047_EC50": {
+            "overall_test_rmse": 0.701175,
+            "noncliff_test_rmse": 0.700186,
+            "cliff_test_rmse": 0.702716
+        },
+        "CHEMBL204_Ki": {
+            "overall_test_rmse": 0.839365,
+            "noncliff_test_rmse": 0.739564,
+            "cliff_test_rmse": 0.971107
+        },
+        "CHEMBL2147_Ki": {
+            "overall_test_rmse": 0.664393,
+            "noncliff_test_rmse": 0.592488,
+            "cliff_test_rmse": 0.761642
+        },
+        "CHEMBL214_Ki": {
+            "overall_test_rmse": 0.720789,
+            "noncliff_test_rmse": 0.634907,
+            "cliff_test_rmse": 0.848297
+        },
+        "CHEMBL218_EC50": {
+            "overall_test_rmse": 0.800863,
+            "noncliff_test_rmse": 0.767977,
+            "cliff_test_rmse": 0.85498
+        },
+        "CHEMBL219_Ki": {
+            "overall_test_rmse": 0.795597,
+            "noncliff_test_rmse": 0.742194,
+            "cliff_test_rmse": 0.87085
+        },
+        "CHEMBL228_Ki": {
+            "overall_test_rmse": 0.736228,
+            "noncliff_test_rmse": 0.697189,
+            "cliff_test_rmse": 0.797977
+        },
+        "CHEMBL231_Ki": {
+            "overall_test_rmse": 0.793288,
+            "noncliff_test_rmse": 0.751957,
+            "cliff_test_rmse": 0.909704
+        },
+        "CHEMBL233_Ki": {
+            "overall_test_rmse": 0.832313,
+            "noncliff_test_rmse": 0.756759,
+            "cliff_test_rmse": 0.929905
+        },
+        "CHEMBL234_Ki": {
+            "overall_test_rmse": 0.735318,
+            "noncliff_test_rmse": 0.732957,
+            "cliff_test_rmse": 0.738355
+        },
+        "CHEMBL235_EC50": {
+            "overall_test_rmse": 0.71537,
+            "noncliff_test_rmse": 0.628887,
+            "cliff_test_rmse": 0.838911
+        },
+        "CHEMBL236_Ki": {
+            "overall_test_rmse": 0.815711,
+            "noncliff_test_rmse": 0.754135,
+            "cliff_test_rmse": 0.903103
+        },
+        "CHEMBL237_EC50": {
+            "overall_test_rmse": 0.7907,
+            "noncliff_test_rmse": 0.727036,
+            "cliff_test_rmse": 0.856453
+        },
+        "CHEMBL237_Ki": {
+            "overall_test_rmse": 0.776859,
+            "noncliff_test_rmse": 0.718174,
+            "cliff_test_rmse": 0.849203
+        },
+        "CHEMBL238_Ki": {
+            "overall_test_rmse": 0.712574,
+            "noncliff_test_rmse": 0.715905,
+            "cliff_test_rmse": 0.702915
+        },
+        "CHEMBL239_EC50": {
+            "overall_test_rmse": 0.799128,
+            "noncliff_test_rmse": 0.66925,
+            "cliff_test_rmse": 0.957722
+        },
+        "CHEMBL244_Ki": {
+            "overall_test_rmse": 0.79043,
+            "noncliff_test_rmse": 0.700214,
+            "cliff_test_rmse": 0.878883
+        },
+        "CHEMBL262_Ki": {
+            "overall_test_rmse": 0.78139,
+            "noncliff_test_rmse": 0.757343,
+            "cliff_test_rmse": 0.879554
+        },
+        "CHEMBL264_Ki": {
+            "overall_test_rmse": 0.642531,
+            "noncliff_test_rmse": 0.602629,
+            "cliff_test_rmse": 0.694613
+        },
+        "CHEMBL2835_Ki": {
+            "overall_test_rmse": 0.458514,
+            "noncliff_test_rmse": 0.375363,
+            "cliff_test_rmse": 0.901633
+        },
+        "CHEMBL287_Ki": {
+            "overall_test_rmse": 0.713161,
+            "noncliff_test_rmse": 0.703287,
+            "cliff_test_rmse": 0.728608
+        },
+        "CHEMBL2971_Ki": {
+            "overall_test_rmse": 0.698143,
+            "noncliff_test_rmse": 0.629252,
+            "cliff_test_rmse": 0.962185
+        },
+        "CHEMBL3979_EC50": {
+            "overall_test_rmse": 0.720146,
+            "noncliff_test_rmse": 0.63031,
+            "cliff_test_rmse": 0.830046
+        },
+        "CHEMBL4005_Ki": {
+            "overall_test_rmse": 0.683866,
+            "noncliff_test_rmse": 0.579137,
+            "cliff_test_rmse": 0.806578
+        },
+        "CHEMBL4203_Ki": {
+            "overall_test_rmse": 0.92261,
+            "noncliff_test_rmse": 0.874395,
+            "cliff_test_rmse": 1.32576
+        },
+        "CHEMBL4616_EC50": {
+            "overall_test_rmse": 0.800415,
+            "noncliff_test_rmse": 0.677959,
+            "cliff_test_rmse": 0.89685
+        },
+        "CHEMBL4792_Ki": {
+            "overall_test_rmse": 0.698711,
+            "noncliff_test_rmse": 0.699923,
+            "cliff_test_rmse": 0.697671
+        }
+    },
+    "9001": {
+        "CHEMBL1862_Ki": {
+            "overall_test_rmse": 0.802341,
+            "noncliff_test_rmse": 0.781582,
+            "cliff_test_rmse": 0.83059
+        },
+        "CHEMBL1871_Ki": {
+            "overall_test_rmse": 0.742249,
+            "noncliff_test_rmse": 0.692222,
+            "cliff_test_rmse": 0.882995
+        },
+        "CHEMBL2034_Ki": {
+            "overall_test_rmse": 0.754809,
+            "noncliff_test_rmse": 0.64276,
+            "cliff_test_rmse": 0.93321
+        },
+        "CHEMBL2047_EC50": {
+            "overall_test_rmse": 0.632286,
+            "noncliff_test_rmse": 0.596609,
+            "cliff_test_rmse": 0.684237
+        },
+        "CHEMBL204_Ki": {
+            "overall_test_rmse": 0.831328,
+            "noncliff_test_rmse": 0.732358,
+            "cliff_test_rmse": 0.961953
+        },
+        "CHEMBL2147_Ki": {
+            "overall_test_rmse": 0.647648,
+            "noncliff_test_rmse": 0.593232,
+            "cliff_test_rmse": 0.723231
+        },
+        "CHEMBL214_Ki": {
+            "overall_test_rmse": 0.725575,
+            "noncliff_test_rmse": 0.644045,
+            "cliff_test_rmse": 0.847551
+        },
+        "CHEMBL218_EC50": {
+            "overall_test_rmse": 0.807582,
+            "noncliff_test_rmse": 0.782605,
+            "cliff_test_rmse": 0.849217
+        },
+        "CHEMBL219_Ki": {
+            "overall_test_rmse": 0.76244,
+            "noncliff_test_rmse": 0.702157,
+            "cliff_test_rmse": 0.846249
+        },
+        "CHEMBL228_Ki": {
+            "overall_test_rmse": 0.782408,
+            "noncliff_test_rmse": 0.742998,
+            "cliff_test_rmse": 0.844945
+        },
+        "CHEMBL231_Ki": {
+            "overall_test_rmse": 0.785963,
+            "noncliff_test_rmse": 0.739813,
+            "cliff_test_rmse": 0.914504
+        },
+        "CHEMBL233_Ki": {
+            "overall_test_rmse": 0.832105,
+            "noncliff_test_rmse": 0.763782,
+            "cliff_test_rmse": 0.921188
+        },
+        "CHEMBL234_Ki": {
+            "overall_test_rmse": 0.729758,
+            "noncliff_test_rmse": 0.714527,
+            "cliff_test_rmse": 0.748958
+        },
+        "CHEMBL235_EC50": {
+            "overall_test_rmse": 0.708616,
+            "noncliff_test_rmse": 0.626006,
+            "cliff_test_rmse": 0.827189
+        },
+        "CHEMBL236_Ki": {
+            "overall_test_rmse": 0.842756,
+            "noncliff_test_rmse": 0.793067,
+            "cliff_test_rmse": 0.914628
+        },
+        "CHEMBL237_EC50": {
+            "overall_test_rmse": 0.83863,
+            "noncliff_test_rmse": 0.76283,
+            "cliff_test_rmse": 0.916168
+        },
+        "CHEMBL237_Ki": {
+            "overall_test_rmse": 0.760049,
+            "noncliff_test_rmse": 0.698693,
+            "cliff_test_rmse": 0.835272
+        },
+        "CHEMBL238_Ki": {
+            "overall_test_rmse": 0.678831,
+            "noncliff_test_rmse": 0.671993,
+            "cliff_test_rmse": 0.698102
+        },
+        "CHEMBL239_EC50": {
+            "overall_test_rmse": 0.783392,
+            "noncliff_test_rmse": 0.675816,
+            "cliff_test_rmse": 0.918175
+        },
+        "CHEMBL244_Ki": {
+            "overall_test_rmse": 0.846832,
+            "noncliff_test_rmse": 0.766428,
+            "cliff_test_rmse": 0.927117
+        },
+        "CHEMBL262_Ki": {
+            "overall_test_rmse": 0.722727,
+            "noncliff_test_rmse": 0.701024,
+            "cliff_test_rmse": 0.811471
+        },
+        "CHEMBL264_Ki": {
+            "overall_test_rmse": 0.660092,
+            "noncliff_test_rmse": 0.621635,
+            "cliff_test_rmse": 0.7105
+        },
+        "CHEMBL2835_Ki": {
+            "overall_test_rmse": 0.449332,
+            "noncliff_test_rmse": 0.361903,
+            "cliff_test_rmse": 0.904657
+        },
+        "CHEMBL287_Ki": {
+            "overall_test_rmse": 0.714761,
+            "noncliff_test_rmse": 0.71266,
+            "cliff_test_rmse": 0.718094
+        },
+        "CHEMBL2971_Ki": {
+            "overall_test_rmse": 0.676113,
+            "noncliff_test_rmse": 0.622858,
+            "cliff_test_rmse": 0.888127
+        },
+        "CHEMBL3979_EC50": {
+            "overall_test_rmse": 0.68696,
+            "noncliff_test_rmse": 0.613119,
+            "cliff_test_rmse": 0.778924
+        },
+        "CHEMBL4005_Ki": {
+            "overall_test_rmse": 0.690708,
+            "noncliff_test_rmse": 0.586005,
+            "cliff_test_rmse": 0.813581
+        },
+        "CHEMBL4203_Ki": {
+            "overall_test_rmse": 0.96816,
+            "noncliff_test_rmse": 0.935659,
+            "cliff_test_rmse": 1.25883
+        },
+        "CHEMBL4616_EC50": {
+            "overall_test_rmse": 0.787003,
+            "noncliff_test_rmse": 0.71143,
+            "cliff_test_rmse": 0.849562
+        },
+        "CHEMBL4792_Ki": {
+            "overall_test_rmse": 0.700957,
+            "noncliff_test_rmse": 0.682274,
+            "cliff_test_rmse": 0.716568
+        }
+    }
+}

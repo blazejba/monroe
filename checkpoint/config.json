@@ -1,0 +1,49 @@
+{
+  "_note": "Bundled Monroe encoder config. Only the 'encoder' block is read at inference; 'pretrain' records the training settings for provenance.",
+  "encoder": {
+    "hidden_dim": 720,
+    "num_layers": 10,
+    "num_heads": 10,
+    "emb_dim": 128,
+    "walk_len": 16,
+    "rbf_dim": 32,
+    "dropout": 0.05,
+    "use_stereo_edges": true,
+    "zero_vn_edge_rbf": false
+  },
+  "pretrain": {
+    "seed": 42,
+    "structure_loss": true,
+    "beta_nll_softplus": true,
+    "per_task_ordinal_k": true,
+    "pcba_mols_per_batch": 100,
+    "pcba_head_layers": 0,
+    "pcba_per_assay_stch": true,
+    "n_shards": 130,
+    "train_node_budget": 25000,
+    "train_node_budget_global": 100000,
+    "ema_decay": 0.995,
+    "emb_decorr_weight": 8.0,
+    "use_node_labels": false,
+    "decoder": {
+      "hidden_dim": 340,
+      "num_layers": 1,
+      "dropout": 0.2,
+      "normalization": "layernorm"
+    },
+    "mtl": {
+      "weighting": "UW",
+      "weighting_args": {}
+    },
+    "optimizer": "adamw",
+    "optim_param": {
+      "lr": 0.0002,
+      "weight_decay": 0.0001
+    },
+    "scheduler_param": {
+      "warmup_steps": 3734,
+      "total_steps": 48545,
+      "cosine_alpha": 1.0
+    }
+  }
+}

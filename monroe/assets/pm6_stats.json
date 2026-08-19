@@ -1,0 +1,416 @@
+{
+  "graph_anion_principal_length_b": {
+    "min": 0.0,
+    "max": 3.875469207763672,
+    "n_unique": 12286615,
+    "loss": "log_huber"
+  },
+  "graph_anion_alpha_gap": {
+    "min": 0.10177057981491089,
+    "max": 133.79103088378906,
+    "n_unique": 42736,
+    "loss": "huber"
+  },
+  "graph_S0_spherocity": {
+    "min": -6.641710806176281e-16,
+    "max": 0.9999998211860657,
+    "n_unique": 27835455,
+    "loss": "log_ratio_squared"
+  },
+  "graph_cation_principal_length_c": {
+    "min": 0.0,
+    "max": 5.432826042175293,
+    "n_unique": 14155177,
+    "loss": "log_huber"
+  },
+  "graph_T0_spherocity": {
+    "min": -6.594380193270487e-16,
+    "max": 0.9999028444290161,
+    "n_unique": 19958231,
+    "loss": "log_ratio_squared"
+  },
+  "graph_cation_alpha_homo": {
+    "min": -31.771196365356445,
+    "max": -5.73833703994751,
+    "n_unique": 34970,
+    "loss": "huber"
+  },
+  "graph_S0_beta_homo": {
+    "min": -22.417011260986328,
+    "max": -1.7752708196640015,
+    "n_unique": 30400,
+    "loss": "huber"
+  },
+  "graph_cation_plane_best_fit": {
+    "min": 0.0,
+    "max": 15.565710067749023,
+    "n_unique": 16166518,
+    "loss": "log_huber"
+  },
+  "graph_cation_beta_homo": {
+    "min": -153.59030151367188,
+    "max": 6.416172504425049,
+    "n_unique": 38154,
+    "loss": "huber"
+  },
+  "graph_T0_energy_total": {
+    "min": -125.64277648925781,
+    "max": 253.6600341796875,
+    "n_unique": 28130130,
+    "loss": "huber"
+  },
+  "graph_cation_beta_gap": {
+    "min": -7.965588569641113,
+    "max": 142.5677947998047,
+    "n_unique": 40741,
+    "loss": "huber"
+  },
+  "graph_anion_beta_homo": {
+    "min": -18.60007095336914,
+    "max": 9.289422988891602,
+    "n_unique": 30491,
+    "loss": "huber"
+  },
+  "graph_cation_principal_length_a": {
+    "min": 0.10162200033664703,
+    "max": 8.70549201965332,
+    "n_unique": 13002199,
+    "loss": "log_huber"
+  },
+  "graph_cation_principal_length_b": {
+    "min": 0.0,
+    "max": 4.94516134262085,
+    "n_unique": 12617141,
+    "loss": "log_huber"
+  },
+  "graph_S0_energy_total": {
+    "min": -125.76702880859375,
+    "max": 153.19122314453125,
+    "n_unique": 45329125,
+    "loss": "huber"
+  },
+  "graph_T0_beta_homo": {
+    "min": -149.25308227539062,
+    "max": 30.552942276000977,
+    "n_unique": 27855,
+    "loss": "huber"
+  },
+  "graph_anion_alpha_homo": {
+    "min": -13.581746101379395,
+    "max": 114.29271697998047,
+    "n_unique": 36670,
+    "loss": "huber"
+  },
+  "graph_S0_plane_best_fit": {
+    "min": 0.0,
+    "max": 15.565710067749023,
+    "n_unique": 17441235,
+    "loss": "log_huber"
+  },
+  "graph_T0_alpha_gap": {
+    "min": 0.17415286600589752,
+    "max": 134.71405029296875,
+    "n_unique": 40484,
+    "loss": "huber"
+  },
+  "graph_anion_plane_best_fit": {
+    "min": 0.0,
+    "max": 4.234066963195801,
+    "n_unique": 15078007,
+    "loss": "log_huber"
+  },
+  "graph_T0_alpha_homo": {
+    "min": -17.737468719482422,
+    "max": 97.08859252929688,
+    "n_unique": 28317,
+    "loss": "huber"
+  },
+  "graph_cation_alpha_gap": {
+    "min": 0.3766055703163147,
+    "max": 55.94198226928711,
+    "n_unique": 34535,
+    "loss": "huber"
+  },
+  "graph_T0_beta_gap": {
+    "min": -32.05990982055664,
+    "max": 145.37655639648438,
+    "n_unique": 39444,
+    "loss": "huber"
+  },
+  "graph_T0_principal_length_b": {
+    "min": 0.0,
+    "max": 6.3901848793029785,
+    "n_unique": 11706247,
+    "loss": "log_huber"
+  },
+  "graph_T0_principal_length_c": {
+    "min": 0.0,
+    "max": 5.300991058349609,
+    "n_unique": 12523710,
+    "loss": "log_huber"
+  },
+  "graph_S0_alpha_homo": {
+    "min": -22.417011260986328,
+    "max": -1.7752708196640015,
+    "n_unique": 30400,
+    "loss": "huber"
+  },
+  "graph_S0_beta_gap": {
+    "min": 0.3572854995727539,
+    "max": 126.005859375,
+    "n_unique": 42599,
+    "loss": "huber"
+  },
+  "graph_anion_spherocity": {
+    "min": -6.587986682705493e-16,
+    "max": 0.9999995827674866,
+    "n_unique": 22599314,
+    "loss": "log_ratio_squared"
+  },
+  "graph_anion_principal_length_c": {
+    "min": 0.0,
+    "max": 2.0714385509490967,
+    "n_unique": 13626104,
+    "loss": "log_huber"
+  },
+  "graph_anion_principal_length_a": {
+    "min": 0.076105996966362,
+    "max": 13.937714576721191,
+    "n_unique": 12811978,
+    "loss": "log_huber"
+  },
+  "graph_cation_energy_total": {
+    "min": -118.19058990478516,
+    "max": 158.5066680908203,
+    "n_unique": 28282974,
+    "loss": "huber"
+  },
+  "graph_S0_principal_length_a": {
+    "min": 0.08250200003385544,
+    "max": 10.004300117492676,
+    "n_unique": 14952132,
+    "loss": "log_huber"
+  },
+  "graph_S0_principal_length_c": {
+    "min": 0.0,
+    "max": 5.761186599731445,
+    "n_unique": 15941978,
+    "loss": "log_huber"
+  },
+  "graph_anion_energy_total": {
+    "min": -103.05899810791016,
+    "max": 258.9906311035156,
+    "n_unique": 27016429,
+    "loss": "huber"
+  },
+  "graph_cation_spherocity": {
+    "min": -6.587986682705493e-16,
+    "max": 0.9999971389770508,
+    "n_unique": 23954779,
+    "loss": "log_ratio_squared"
+  },
+  "graph_anion_beta_gap": {
+    "min": 0.17415286600589752,
+    "max": 124.8447494506836,
+    "n_unique": 38309,
+    "loss": "huber"
+  },
+  "graph_T0_plane_best_fit": {
+    "min": 0.0,
+    "max": 14.128023147583008,
+    "n_unique": 13487046,
+    "loss": "log_huber"
+  },
+  "graph_S0_alpha_gap": {
+    "min": 0.3572854995727539,
+    "max": 126.005859375,
+    "n_unique": 42599,
+    "loss": "huber"
+  },
+  "graph_S0_principal_length_b": {
+    "min": 0.0,
+    "max": 6.3901848793029785,
+    "n_unique": 14267836,
+    "loss": "log_huber"
+  },
+  "graph_T0_principal_length_a": {
+    "min": 0.09976000338792801,
+    "max": 9.640176773071289,
+    "n_unique": 11948698,
+    "loss": "log_huber"
+  },
+  "node_S0_charges_mulliken": {
+    "min": -10.594103813171387,
+    "max": 4.324900150299072,
+    "n_unique": 2982081,
+    "loss": "huber"
+  },
+  "node_anion_charges_mulliken": {
+    "min": -10.859771728515625,
+    "max": 4.0,
+    "n_unique": 2889898,
+    "loss": "huber"
+  },
+  "node_anion_spin": {
+    "min": -3.0,
+    "max": 4.0,
+    "n_unique": 1621062,
+    "loss": "huber"
+  },
+  "node_T0_charges_mulliken": {
+    "min": -4.407441139221191,
+    "max": 4.0,
+    "n_unique": 2715013,
+    "loss": "huber"
+  },
+  "node_T0_spin": {
+    "min": -2.0569279193878174,
+    "max": 4.0569281578063965,
+    "n_unique": 2480372,
+    "loss": "huber"
+  },
+  "node_cation_charges_mulliken": {
+    "min": -6.355414867401123,
+    "max": 5.2906951904296875,
+    "n_unique": 2763864,
+    "loss": "huber"
+  },
+  "node_cation_spin": {
+    "min": -2.6805050373077393,
+    "max": 3.0531249046325684,
+    "n_unique": 1759247,
+    "loss": "huber"
+  },
+  "graph_mw": {
+    "min": 8.005206108093262,
+    "max": 1005.0719604492188,
+    "n_unique": 1818372,
+    "loss": "log_huber"
+  },
+  "graph_fsp3": {
+    "min": 0.0,
+    "max": 1.0,
+    "n_unique": 1545,
+    "loss": "beta_nll"
+  },
+  "graph_n_lipinski_hba": {
+    "min": 0.0,
+    "max": 63.0,
+    "n_unique": 58,
+    "loss": "ordinal"
+  },
+  "graph_n_lipinski_hbd": {
+    "min": 0.0,
+    "max": 48.0,
+    "n_unique": 41,
+    "loss": "ordinal"
+  },
+  "graph_n_rings": {
+    "min": 0.0,
+    "max": 40.0,
+    "n_unique": 41,
+    "loss": "ordinal"
+  },
+  "graph_n_hetero_atoms": {
+    "min": 0.0,
+    "max": 63.0,
+    "n_unique": 58,
+    "loss": "ordinal"
+  },
+  "graph_n_heavy_atoms": {
+    "min": 1.0,
+    "max": 81.0,
+    "n_unique": 81,
+    "loss": "ordinal"
+  },
+  "graph_n_rotatable_bonds": {
+    "min": 0.0,
+    "max": 65.0,
+    "n_unique": 66,
+    "loss": "ordinal"
+  },
+  "graph_n_radical_electrons": {
+    "min": 0.0,
+    "max": 32.0,
+    "n_unique": 16,
+    "loss": "ordinal"
+  },
+  "graph_tpsa": {
+    "min": 0.0,
+    "max": 803.8300170898438,
+    "n_unique": 40991,
+    "loss": "log_huber"
+  },
+  "graph_qed": {
+    "min": 0.004790610633790493,
+    "max": 0.9484484195709229,
+    "n_unique": 15486044,
+    "loss": "beta_nll"
+  },
+  "graph_clogp": {
+    "min": -39.67259979248047,
+    "max": 26.442399978637695,
+    "n_unique": 889184,
+    "loss": "huber"
+  },
+  "graph_sas": {
+    "min": 1.0,
+    "max": 9.857270240783691,
+    "n_unique": 12179538,
+    "loss": "log_huber"
+  },
+  "graph_n_aliphatic_carbocycles": {
+    "min": 0.0,
+    "max": 37.0,
+    "n_unique": 31,
+    "loss": "ordinal"
+  },
+  "graph_n_aliphatic_heterocyles": {
+    "min": 0.0,
+    "max": 30.0,
+    "n_unique": 28,
+    "loss": "ordinal"
+  },
+  "graph_n_aliphatic_rings": {
+    "min": 0.0,
+    "max": 37.0,
+    "n_unique": 32,
+    "loss": "ordinal"
+  },
+  "graph_n_aromatic_carbocycles": {
+    "min": 0.0,
+    "max": 40.0,
+    "n_unique": 38,
+    "loss": "ordinal"
+  },
+  "graph_n_aromatic_heterocyles": {
+    "min": 0.0,
+    "max": 30.0,
+    "n_unique": 21,
+    "loss": "ordinal"
+  },
+  "graph_n_aromatic_rings": {
+    "min": 0.0,
+    "max": 40.0,
+    "n_unique": 38,
+    "loss": "ordinal"
+  },
+  "graph_n_saturated_carbocycles": {
+    "min": 0.0,
+    "max": 37.0,
+    "n_unique": 31,
+    "loss": "ordinal"
+  },
+  "graph_n_saturated_heterocyles": {
+    "min": 0.0,
+    "max": 30.0,
+    "n_unique": 22,
+    "loss": "ordinal"
+  },
+  "graph_n_saturated_rings": {
+    "min": 0.0,
+    "max": 37.0,
+    "n_unique": 32,
+    "loss": "ordinal"
+  }
+}
