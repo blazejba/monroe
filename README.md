@@ -1,6 +1,6 @@
 # Monroe: A Molecular Foundation Model for In-Context Probabilistic Inference
 
-📄 [**Paper**](https://arxiv.org/abs/XXXX.XXXXX) <!-- TODO(release): replace with the real paper link -->
+📄 [**Paper**]([https://arxiv.org/abs/XXXX.XXXXX](https://arxiv.org/abs/2608.18982))
 
 ![Monroe overview: (A) multi-task pretraining on PM6 and PCBA with structural and decorrelation losses under uncertainty weighting; (B) graph construction with featurization and stereochemistry-aware rewiring; (C) in-context probabilistic inference, where attention-pooled embeddings and training labels are passed to TabPFN for a single-pass posterior-predictive distribution.](figure1.png)
 
@@ -414,9 +414,13 @@ If you use this code, please cite:
 
 ```bibtex
 @misc{banaszewski2026monroe,
-  title  = {Monroe: A Molecular Foundation Model for In-Context Probabilistic Inference},
-  author = {Banaszewski, B{\l}a\.zej and Fitzgibbon, Andrew},
-  year   = {2026},
+      title={Monroe: A Molecular Foundation Model for In-Context Probabilistic Inference}, 
+      author={Blazej Banaszewski and Andrew W. Fitzgibbon},
+      year={2026},
+      eprint={2608.18982},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2608.18982}, 
 }
 ```
 
